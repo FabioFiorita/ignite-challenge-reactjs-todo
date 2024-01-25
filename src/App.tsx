@@ -1,8 +1,14 @@
+import { Header } from "./components/Header";
+
+import styles from "./App.module.css"
+
+import "./global.css";
+
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className={styles.wrapper}>
+      <Header />
+    </div>
   )
 }
 
