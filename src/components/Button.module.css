@@ -1,0 +1,17 @@
+.button {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  border: none;
+
+  color: var(--gray-100);
+}
+
+.button > span {
+  font-weight: 700;
+}
