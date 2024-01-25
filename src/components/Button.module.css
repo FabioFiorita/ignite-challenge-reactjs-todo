@@ -10,8 +10,16 @@
   border: none;
 
   color: var(--gray-100);
+
+  transition: background-color 0.1s;
+  cursor: pointer;
 }
 
 .button > span {
+  font-size: 0.875rem ;
   font-weight: 700;
+}
+
+.button:hover {
+  background-color: var(--blue);
 }
