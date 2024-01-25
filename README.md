@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Todo List - Ignite Challenge
+![Banner da Aplicação](./assets/banner.png)
+Este projeto é um desafio do curso Ignite da Rocketseat. O objetivo é criar uma simples lista de tarefas (todo list) utilizando React e TypeScript.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o Projeto
 
-Currently, two official plugins are available:
+O projeto é uma aplicação simples de lista de tarefas, onde o usuário pode adicionar novas tarefas, marcar tarefas como concluídas e excluir tarefas. A aplicação foi desenvolvida utilizando React para a interface do usuário e TypeScript para tipagem estática.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- CSS Modules
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Como Executar o Projeto
 
-- Configure the top-level `parserOptions` property like this:
+Primeiro, instale as dependências do projeto executando o seguinte comando no terminal:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Em seguida, execute o projeto com o seguinte comando:
+
+```bash
+npm run dev
+```
+
+Agora, abra o navegador e navegue até ```http://localhost:3000/``` para ver a aplicação em execução.
+
+## Estrutura do Projeto
+O projeto segue a estrutura padrão de um projeto React com Typescript:
+- [src](./src/): pasta onde se encontra o código fonte da aplicação
+  - [components](./src/components/): Este diretório contém todos os componentes React utilizados na aplicação.
+  - [App.tsx](./src/App.tsx): Este é o componente principal da aplicação.
+  - [main.tsx](./src/main.tsx): Este é o ponto de entrada da aplicação.
+- [public](./public/): Este diretório contém os arquivos públicos da aplicação.
+- [package.json](./package.json): Arquivo de configuração do NPM.
+- [tsconfig.json](./tsconfig.json): Arquivo de configuração do TypeScript.
